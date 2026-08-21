@@ -7,5 +7,6 @@ public class ArrayListExample {
         idades.add(30);
         idades.add(10);
         idades.remove(0);
+        idades.get(1);
     }
 }
