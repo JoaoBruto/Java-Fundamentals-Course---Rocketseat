@@ -8,5 +8,6 @@ public class ArrayListExample {
         idades.add(10);
         idades.remove(0);
         idades.get(1);
+        idades.size();
     }
 }
