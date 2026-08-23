@@ -6,5 +6,6 @@ public class CastingExplicitoExample {
         double idade2 = idade1;
         char letra = 'A';
         String nome = String.valueOf(letra);
+        letra = nome.charAt(0);
     }
 }
