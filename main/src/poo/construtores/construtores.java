@@ -9,7 +9,7 @@ public class construtores {
         System.out.println(nome2);
     }
 
-    public construtores(String nome) {
+    private construtores(String nome) {
         this.nome = nome;
     }
 };
