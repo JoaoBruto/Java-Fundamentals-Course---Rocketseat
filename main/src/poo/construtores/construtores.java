@@ -9,7 +9,13 @@ public class construtores {
         System.out.println(nome2);
     }
 
-    private construtores(String nome) {
+    public construtores(String nome) {
         this.nome = nome;
     }
 };
+
+class pessoa {
+    void CriaConstrutores() {
+        construtores MeuMain = new construtores("João");
+    }
+}
