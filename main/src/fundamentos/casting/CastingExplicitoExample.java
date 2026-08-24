@@ -2,9 +2,10 @@ import java.util.ArrayList;
 
 public class CastingExplicitoExample {
     public static  void main(String[] args) {
+        int idade = 12;
         char letra = 'A';
-        String nome = "João";
-        letra = nome.charAt(1);
-        System.out.println(letra);
+        String nome = String.valueOf(letra);
+        idade = Integer.parseInt(nome);
+
     }
 }
