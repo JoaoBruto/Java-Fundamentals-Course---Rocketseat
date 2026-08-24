@@ -18,6 +18,7 @@ public class classes {
         nome = "João";
 
         classes MeuMain = new classes();
+        System.out.println(MeuMain.nome);
         MeuMain.declaraNome();
     }
     String GetNome() {
