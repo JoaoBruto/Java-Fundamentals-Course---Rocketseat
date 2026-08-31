@@ -16,6 +16,6 @@ public class construtores {
 
 class pessoa {
     void CriaConstrutores() {
-        construtores MeuMain = new construtores("João");
+        construtores MeuMain = new construtores("João Rodrigo");
     }
 }
