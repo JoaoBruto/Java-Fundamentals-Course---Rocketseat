@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class construtores {
     String nome;
+    int idade;
     static String nome2;
 
     public static void main(String[] args) {
@@ -12,10 +13,15 @@ public class construtores {
     public construtores(String nome) {
         this.nome = nome;
     }
+
+    public construtores(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
 };
 
 class pessoa {
     void CriaConstrutores() {
-        construtores MeuMain = new construtores("João Rodrigo");
+        construtores MeuMain = new construtores("João Rodrigo", 17);
     }
 }
