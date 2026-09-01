@@ -1,7 +1,10 @@
-public class estruturas {
+import java.util.ArrayList;
+
+public class estruturas { // Só essa classe pode ser pública
 
     public String name;
     private int salario;
+    protected String sobrenome;
     public static void main(String[] args) {
 
     }
@@ -16,7 +19,7 @@ class Pessoa {
         estruturas MeuMain = new estruturas();
         MeuMain.name = "João"; // public
         MeuMain.AtualizaSalario(); // public
-
+        MeuMain.sobrenome = "Ferreira"; // protected
         //MeuMain.salario = 4000 // private
     }
 }
