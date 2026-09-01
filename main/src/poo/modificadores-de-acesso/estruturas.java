@@ -6,7 +6,7 @@ public class estruturas {
 
     }
 
-    void AtualizaSalario() {
+    public void AtualizaSalario() {
         this.salario = 4000;
     }
 }
@@ -14,7 +14,9 @@ public class estruturas {
 class Pessoa {
     void criaMain() {
         estruturas MeuMain = new estruturas();
-        System.out.println(MeuMain.name);
-        System.out.println(MeuMain.salario);
+        MeuMain.name = "João"; // public
+        MeuMain.AtualizaSalario(); // public
+
+        //MeuMain.salario = 4000 // private
     }
 }
