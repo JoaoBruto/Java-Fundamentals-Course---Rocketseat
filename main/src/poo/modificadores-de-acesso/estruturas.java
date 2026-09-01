@@ -1,6 +1,15 @@
 public class estruturas {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
 
+    public String name;
+    public static void main(String[] args) {
+
+
+    }
+}
+
+class Pessoa {
+    void criaMain() {
+        estruturas MeuMain = new estruturas();
+        System.out.println(MeuMain.name);
     }
 }
