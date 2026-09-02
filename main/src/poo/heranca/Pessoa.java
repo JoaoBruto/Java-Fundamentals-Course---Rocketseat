@@ -6,9 +6,11 @@ class Ser {
 
     void setNome(String nome) {
         this.nome = nome;
-        
-
     };
+
+    void SetIdade(int idade) {
+        this.idade = idade;
+    }
 }
 
 public class Pessoa {
