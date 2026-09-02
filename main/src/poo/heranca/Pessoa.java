@@ -13,7 +13,7 @@ class Ser {
     }
 }
 
-public class Pessoa {
+public class Pessoa extends Ser { // Aqui "Pessoa" se tornou um "Ser"
     void criaMain() {
         Pessoa MeuMain = new Pessoa();
         System.out.println();
