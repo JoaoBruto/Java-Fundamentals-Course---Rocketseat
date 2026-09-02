@@ -1,6 +1,6 @@
 package poo.heranca;
 
-class Ser {
+class Ser { // Super classe
     String nome;
     int idade;
 
@@ -13,9 +13,9 @@ class Ser {
     }
 }
 
+// Sub classe
 public class Pessoa extends Ser { // Aqui "Pessoa" se tornou um "Ser"
     void criaMain() {
-        Pessoa MeuMain = new Pessoa();
-        System.out.println();
+        this.idade = 22; // Eu tenho idade, mesmo não tendo declarado nessa classe
     }
 }
