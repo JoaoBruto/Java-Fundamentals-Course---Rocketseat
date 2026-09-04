@@ -1,4 +1,4 @@
-package poo.heranca;
+package M;
 
 class Ser { // Super classe
     String nome;
