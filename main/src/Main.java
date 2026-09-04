@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Ser meuSerHumano = new Pessoa("João", 17, "Ferreira", "rua87");
         meuSerHumano.SetNome("João");
-        meuSerHumano.saudacao();
+        System.out.println(meuSerHumano.saudacao());    
 
     }
 }
