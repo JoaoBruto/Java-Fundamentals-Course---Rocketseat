@@ -8,4 +8,11 @@ public class cachorro extends Ser {
         super(nome, idade);
         this.nomeDono = nomeDono;
     }
+
+
+    @Override
+    public String saudacao(){
+        return "Au-Au";
+    }
+
 }

@@ -15,4 +15,8 @@ public class Ser {
     void SetIdade(int idade) {
         this.idade = idade;
     }
+
+    public String saudacao() {
+        return null;
+    }
 }
