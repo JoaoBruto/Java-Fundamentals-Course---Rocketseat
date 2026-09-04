@@ -27,11 +27,4 @@ public class Pessoa extends Ser{
         this.sobrenome = sobrenome;
         this.endereco = endereco;
     }
-
-    void criaMain() {
-        Main meuMain = new Main();
-        System.out.println(meuMain.name);
-        System.out.println(meuMain.salary);
-        this.idade = 22;
-    }
 }
