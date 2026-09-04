@@ -6,4 +6,9 @@ public class Pessoa extends Ser{
         this.sobrenome = sobrenome;
         this.endereco = endereco;
     }
+
+    @Override
+    public String saudacao(){
+        return "Fala ai, mano";
+    }
 }
