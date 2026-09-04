@@ -9,6 +9,6 @@ public class Pessoa extends Ser{
 
     @Override
     public String saudacao(){
-        return "Fala ai, mano";
+        return "Fala ai, mano! Meu nome é" + this.nome;
     }
 }
