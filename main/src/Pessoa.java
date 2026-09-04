@@ -13,5 +13,8 @@ class Ser {
 
 
 
-public class Pessoa {
+public class Pessoa extends Ser{
+    public Pessoa() {
+
+    }
 }
