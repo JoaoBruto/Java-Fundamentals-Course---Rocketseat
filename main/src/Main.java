@@ -3,9 +3,9 @@ public class Main {
     protected int salary;
 
     public static void main(String[] args) {
-        Ser meuSerAnimal = new Pessoa("João", 17, "Ferreira", "rua87");
-        meuSerAnimal.SetNome("João");
-        meuSerAnimal.saudacao();
+        Ser meuSerHumano = new Pessoa("João", 17, "Ferreira", "rua87");
+        meuSerHumano.SetNome("João");
+        meuSerHumano.saudacao();
 
     }
 }
