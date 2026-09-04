@@ -6,7 +6,9 @@ class Ser {
         this.nome = nome;
     }
 
-    
+    void SetIdade(int idade) {
+        this.idade = idade;
+    }
 }
 
 
